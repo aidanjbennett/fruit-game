@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="h-screen bg-gray-300 p-10">
+	<slot />
+</div>

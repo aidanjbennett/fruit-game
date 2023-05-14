@@ -157,19 +157,26 @@
 						/>
 					{/each}
 				</div>
-				<div class="btns">
+				<div class="flex">
 					<button
-						class="rounded bg-black px-4 py-2 font-bold text-white hover:text-red-500 hover:underline"
+						class="mr-2 rounded-md bg-black px-10 py-2 align-middle text-lg font-bold text-white hover:text-red-500 hover:underline"
 						type="submit"
 					>
 						Guess
 					</button>
-					<Button text="Main Menu" link="/" />
+					<h2 class="text-xl font-medium">Points {points}</h2>
+				</div>
+				<div class="py-4 md:flex">
+					<div class="pb-6 pr-2">
+						<Button text="Main Menu" link="/" />
+					</div>
+					<div>
+						<Button text="Help" link="/help" />
+					</div>
 				</div>
 			</form>
 		</div>
 	</div>
-	<h2 class="text-xl font-medium">Points {points}</h2>
 
 	{#if hasWon}
 		<h1>YOU WON</h1>
