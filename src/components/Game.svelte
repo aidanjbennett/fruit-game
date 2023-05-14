@@ -3,7 +3,7 @@
 	import Input from './Input.svelte';
 </script>
 
-<div class="flex py-10 px-10 justify-center">
+<div class="flex justify-center px-10 py-10">
 	<div class="pr-24">
 		<HowToPlay />
 	</div>

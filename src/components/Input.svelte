@@ -118,11 +118,11 @@
 	<div class="flex">
 		<div>
 			<form on:submit={handleSubmit}>
-				<div class="flex row-1">
+				<div class="row-1 flex">
 					{#each currentWord as _, index}
 						<input
 							name="name"
-							class="bg-gray-300 border-black rounded-lg py-2 px-4 block w-12 text-center border-solid border-2 mx-1 my-2"
+							class="mx-1 my-2 block w-12 rounded-lg border-2 border-solid border-black bg-gray-300 px-4 py-2 text-center"
 							type="text"
 							bind:value={rowOne[index]}
 							disabled={isRowOneDisabled}
@@ -131,11 +131,11 @@
 						/>
 					{/each}
 				</div>
-				<div class="flex row-2">
+				<div class="row-2 flex">
 					{#each currentWord as _, index}
 						<input
 							name="name"
-							class="bg-gray-300 border-black rounded-lg py-2 px-4 block w-12 text-center border-solid border-2 mx-1 my-2"
+							class="mx-1 my-2 block w-12 rounded-lg border-2 border-solid border-black bg-gray-300 px-4 py-2 text-center"
 							type="text"
 							maxlength="1"
 							bind:value={rowTwo[index]}
@@ -144,11 +144,11 @@
 						/>
 					{/each}
 				</div>
-				<div class="flex row-3">
+				<div class="row-3 flex">
 					{#each currentWord as _, index}
 						<input
 							name="name"
-							class="bg-gray-300 border-black rounded-lg py-2 px-4 block w-12 text-center border-solid border-2 mx-1 my-2"
+							class="mx-1 my-2 block w-12 rounded-lg border-2 border-solid border-black bg-gray-300 px-4 py-2 text-center"
 							type="text"
 							bind:value={rowThree[index]}
 							maxlength="1"
@@ -159,7 +159,7 @@
 				</div>
 				<div class="btns">
 					<button
-						class="bg-black text-white font-bold py-2 px-4 rounded hover:underline hover:text-red-500"
+						class="rounded bg-black px-4 py-2 font-bold text-white hover:text-red-500 hover:underline"
 						type="submit"
 					>
 						Guess

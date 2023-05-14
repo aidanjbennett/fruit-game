@@ -7,9 +7,9 @@
 <svelte:head>
 	<title>Help | Fruit Guessing Game</title>
 </svelte:head>
-<div class="bg-gray-300 h-screen pt-10 px-10">
+<div class="h-screen bg-gray-300 px-10 pt-10">
 	<div class="flex">
-		<h1 class="text-center font-bold text-2xl pr-10">Fruit Guessing Game</h1>
+		<h1 class="pr-10 text-center text-2xl font-bold">Fruit Guessing Game</h1>
 		<Button text="Main Menu" link="/" />
 	</div>
 	<div class="flex">

@@ -5,6 +5,6 @@
 
 <a
 	href={link}
-	class="bg-black text-white font-bold py-2 px-4 rounded hover:underline hover:text-red-500"
+	class="rounded bg-black px-4 py-2 font-bold text-white hover:text-red-500 hover:underline"
 	>{text}
 </a>
