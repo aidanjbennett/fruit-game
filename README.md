@@ -2,7 +2,7 @@
 
 ## About
 
-This is a simple game where you have to guess the fruit name which is only five letters long. You have 3 chances to guess the fruit name. If you guess the fruit name correctly, you will win the game. If you fail to guess the fruit name, you will lose the game. You can play the game as many times as you want.
+This is a simple game where you have to guess the fruit name which is only five letters long. You have 3 chances to guess the fruit name. If you guess the fruit name correctly, you will win the game. If you fail to guess the fruit name, you will lose the game. You can play the game as many times as you want. A live version is hosted at https://fruit-guessing-game.vercel.app/
 
 ## How to play
 
