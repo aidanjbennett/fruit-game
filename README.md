@@ -1,4 +1,4 @@
-# Fruit guessing games
+# Fruit guessing game
 
 ## About
 
