@@ -7,7 +7,7 @@
 	const lengthOfAnswersArray = answers.length;
 
 	let randomNumber = Math.floor(Math.random() * lengthOfAnswersArray);
-	let currentWord = answers[randomNumber];
+	let currentWord = answers[randomNumber].toLowerCase();
 	console.log('currentWord: ', currentWord);
 
 	let points: number = 0;
